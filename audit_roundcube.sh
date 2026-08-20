@@ -92,7 +92,7 @@ section "4. Roundcube"
 # ------------------------------------------------------------
 
 RC_DIR=""
-for d in /var/www/roundcube /var/www/html/roundcube /usr/share/roundcube; do
+for d in /var/www/roundcube /var/www/roundcube/config /var/www/html/roundcube /usr/share/roundcube; do
     [[ -d "$d" ]] && RC_DIR="$d" && break
 done
 
